@@ -1,201 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vanta Robotics — Machines for the floor, the aisle, and the line</title>
-  <meta name="description" content="Vanta Robotics designs industrial arms, mobile inspection robots, and warehouse motion systems.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-
-  <header class="site-header">
-    <a class="logo" href="#top" aria-label="Vanta Robotics, home">
-      <span class="logo-mark" aria-hidden="true"></span>
-      Vanta
-    </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      Menu
-    </button>
-    <nav id="site-nav" class="site-nav" aria-label="Primary">
-      <a href="#capabilities">Capabilities</a>
-      <a href="#products">Products</a>
-      <a href="#process">Process</a>
-      <a class="nav-cta" href="#contact">Talk to us</a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">Industrial robotics studio</p>
-        <h1>Machines that hold a line, walk a plant, and keep a warehouse moving.</h1>
-        <p class="lede">Vanta builds arms, inspectors, and autonomous carts for factories that cannot pause for a retrofit.</p>
-        <div class="hero-actions">
-          <a class="button" href="#products">See the machines</a>
-          <a class="text-link" href="#contact">Book a site survey</a>
-        </div>
-      </div>
-      <figure class="hero-mark" aria-hidden="true">
-        <svg viewBox="0 0 420 460" role="img">
-          <title>Geometric robot mark</title>
-          <rect x="168" y="28" width="84" height="56" rx="8" fill="none" stroke="currentColor" stroke-width="3"/>
-          <circle cx="196" cy="56" r="6" fill="currentColor"/>
-          <circle cx="224" cy="56" r="6" fill="currentColor"/>
-          <path d="M210 84 V128" stroke="currentColor" stroke-width="3"/>
-          <rect x="146" y="128" width="128" height="150" rx="16" fill="none" stroke="currentColor" stroke-width="3"/>
-          <path d="M146 188 H274" stroke="currentColor" stroke-width="3"/>
-          <rect x="178" y="206" width="64" height="40" fill="currentColor" opacity="0.85"/>
-          <path d="M146 176 H78 L48 248" fill="none" stroke="currentColor" stroke-width="3"/>
-          <path d="M274 176 H342 L372 248" fill="none" stroke="currentColor" stroke-width="3"/>
-          <rect x="28" y="240" width="52" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
-          <rect x="340" y="240" width="52" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
-          <path d="M186 278 V360" stroke="currentColor" stroke-width="3"/>
-          <path d="M234 278 V360" stroke="currentColor" stroke-width="3"/>
-          <rect x="150" y="352" width="72" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
-          <rect x="198" y="352" width="72" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
-          <path d="M40 420 H380" stroke="currentColor" stroke-width="2" opacity="0.45"/>
-          <path d="M70 420 V392 M140 420 V404 M210 420 V388 M280 420 V404 M350 420 V392" stroke="currentColor" stroke-width="2" opacity="0.45"/>
-        </svg>
-      </figure>
-    </section>
-
-    <section class="band" id="capabilities" aria-labelledby="capabilities-title">
-      <div class="section-head">
-        <p class="eyebrow">Capabilities</p>
-        <h2 id="capabilities-title">Three jobs, one control stack.</h2>
-      </div>
-      <ul class="capability-list">
-        <li>
-          <span class="index">01</span>
-          <h3>Precision manipulation</h3>
-          <p>Arms that place, fasten, and inspect parts without a fenced-off cell the size of the line.</p>
-        </li>
-        <li>
-          <span class="index">02</span>
-          <h3>Mobile inspection</h3>
-          <p>Robots that walk the same routes as your technicians and flag heat, leaks, and drift.</p>
-        </li>
-        <li>
-          <span class="index">03</span>
-          <h3>Warehouse motion</h3>
-          <p>Carts that share aisles with people and keep pick faces stocked through the shift.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="band products" id="products" aria-labelledby="products-title">
-      <div class="section-head">
-        <p class="eyebrow">Products</p>
-        <h2 id="products-title">Machines already on factory floors.</h2>
-      </div>
-      <div class="product-grid">
-        <article class="card">
-          <p class="card-kicker">Arm</p>
-          <h3>Arc-6</h3>
-          <p>A six-axis arm for assembly cells where the part, not the robot, sets the footprint.</p>
-          <dl>
-            <div><dt>Reach</dt><dd>1.8 m</dd></div>
-            <div><dt>Payload</dt><dd>12 kg</dd></div>
-            <div><dt>Repeatability</dt><dd>±0.03 mm</dd></div>
-          </dl>
-        </article>
-        <article class="card">
-          <p class="card-kicker">Inspector</p>
-          <h3>Ledger</h3>
-          <p>A wheeled inspector for plants that need the same route, every hour, without a clipboard.</p>
-          <dl>
-            <div><dt>Runtime</dt><dd>8 h</dd></div>
-            <div><dt>Payload</dt><dd>18 kg</dd></div>
-            <div><dt>Speed</dt><dd>1.2 m/s</dd></div>
-          </dl>
-        </article>
-        <article class="card">
-          <p class="card-kicker">Cart</p>
-          <h3>Kite</h3>
-          <p>An autonomous cart for aisles that stay open to people, forklifts, and last-minute picks.</p>
-          <dl>
-            <div><dt>Runtime</dt><dd>10 h</dd></div>
-            <div><dt>Payload</dt><dd>120 kg</dd></div>
-            <div><dt>Charge</dt><dd>40 min</dd></div>
-          </dl>
-        </article>
-      </div>
-    </section>
-
-    <section class="band" id="process" aria-labelledby="process-title">
-      <div class="section-head">
-        <p class="eyebrow">Process</p>
-        <h2 id="process-title">From a walkthrough to a running cell.</h2>
-      </div>
-      <ol class="steps">
-        <li>
-          <span>01</span>
-          <h3>Site survey</h3>
-          <p>We measure the cell, the aisle, and the shifts that actually happen.</p>
-        </li>
-        <li>
-          <span>02</span>
-          <h3>Cell design</h3>
-          <p>Reach, payload, and safety zones are drawn against your existing line.</p>
-        </li>
-        <li>
-          <span>03</span>
-          <h3>Pilot</h3>
-          <p>One machine runs a real job for two weeks before anyone talks about a fleet.</p>
-        </li>
-        <li>
-          <span>04</span>
-          <h3>Deployment</h3>
-          <p>We install, train the crew, and stay through the first full production week.</p>
-        </li>
-      </ol>
-    </section>
-
-    <section class="band contact" id="contact" aria-labelledby="contact-title">
-      <div class="section-head">
-        <p class="eyebrow">Contact</p>
-        <h2 id="contact-title">Tell us about the floor.</h2>
-        <p class="lede">A short note is enough. We reply with whether a survey is worth your time.</p>
-      </div>
-      <form id="contact-form" novalidate>
-        <div class="field">
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" autocomplete="name" required>
-          <p class="error" id="name-error" role="alert" hidden></p>
-        </div>
-        <div class="field">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" autocomplete="email" required>
-          <p class="error" id="email-error" role="alert" hidden></p>
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-          <p class="error" id="message-error" role="alert" hidden></p>
-        </div>
-        <button class="button" type="submit">Send note</button>
-      </form>
-      <p class="confirmation" id="confirmation" role="status" hidden>
-        Noted. This demo keeps the message on this page and does not send it anywhere.
-      </p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>Vanta Robotics</p>
-    <nav aria-label="Footer">
-      <a href="#capabilities">Capabilities</a>
-      <a href="#products">Products</a>
-      <a href="#process">Process</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=f727b40a-27d3-4581-bbc8-f1e408040b34
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#18202a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Architechs" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/team-logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Architechs · FTC #25795</title>
+    <script type="module" crossorigin src="/assets/index-CsO2lnxl.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DKxc2eRr.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
