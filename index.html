@@ -1,30 +1,163 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-<!-- This site is hosted on Netlify. Anyone can build and deploy a site
-     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=f727b40a-27d3-4581-bbc8-f1e408040b34
-     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#18202a" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Architechs" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="/team-logo.jpg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <title>Architechs · FTC #25795</title>
-    <script type="module" crossorigin src="/assets/index-CsO2lnxl.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DKxc2eRr.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Architechs · FTC #25795 · Presentation</title>
+  <meta name="description" content="Judging presentation for Architechs, FIRST Tech Challenge team 25795 from Mechanicsburg, PA.">
+  <meta name="theme-color" content="#061018">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="present.css">
+</head>
+<body>
+  <a class="skip" href="#slides">Skip to slides</a>
+
+  <header class="deck-bar">
+    <p class="brand">Architechs <span>#25795</span></p>
+    <p class="deck-title" id="deck-title">Opening</p>
+    <p class="count" id="count">1 / 7</p>
+  </header>
+
+  <main id="slides">
+    <section class="slide is-active" data-title="Opening" aria-label="Opening">
+      <p class="kicker">FIRST Tech Challenge · Mechanicsburg, PA</p>
+      <h1>Archi<span>techs</span></h1>
+      <p class="motto">Fail fast, learn faster.</p>
+      <p class="lede">Team 25795. A student-led robotics team presenting robot AEGIS and the outreach that grew from it.</p>
+      <p class="hint">Arrow keys move the deck. Press N for speaker notes.</p>
+    </section>
+
+    <section class="slide" data-title="The team" aria-label="The team" hidden>
+      <p class="kicker">Who is in the room</p>
+      <h2>Twelve students. Every role on the robot.</h2>
+      <ul class="stats">
+        <li><strong>12</strong><span>Members</span></li>
+        <li><strong>3rd</strong><span>Year in FTC</span></li>
+        <li><strong>8 yrs</strong><span>FLL before FTC</span></li>
+        <li><strong>2024</strong><span>Team founded</span></li>
+      </ul>
+      <p class="lede">Builders, coders, designers, and drivers share the work from the whiteboard to match play. The team is based in Mechanicsburg, Pennsylvania.</p>
+      <aside class="notes">
+        <p>Open with names if the judges ask. Then the four numbers. Founded in 2024, third FTC season, eight years of FIRST LEGO League behind the team.</p>
+      </aside>
+    </section>
+
+    <section class="slide" data-title="Robot AEGIS" aria-label="Robot AEGIS" hidden>
+      <div class="split">
+        <div>
+          <p class="kicker">Robot AEGIS · V4</p>
+          <h2>The robot we are putting on the field.</h2>
+          <p class="lede">AEGIS is the team’s latest build. It drives on mecanum wheels so it can strafe into scoring position without a long approach.</p>
+          <ul class="points">
+            <li>Latest published design: V4 Final</li>
+            <li>Mecanum drive</li>
+            <li>Built, coded, and driven by the students</li>
+          </ul>
+        </div>
+        <figure>
+          <img src="https://architechs.si/robot-v4.jpg" alt="Robot AEGIS, the team’s V4 mecanum robot, photographed from above on a workbench.">
+          <figcaption>AEGIS · V4 Final</figcaption>
+        </figure>
+      </div>
+      <aside class="notes">
+        <p>Stand next to the photo. Point out the drive train. Do not claim a mechanism that is not on the robot in the room. Invite judges to the pit for the current build.</p>
+      </aside>
+    </section>
+
+    <section class="slide" data-title="How we build" aria-label="How we build" hidden>
+      <p class="kicker">Engineering loop</p>
+      <h2>Four passes, then we run it again.</h2>
+      <ol class="loop">
+        <li>
+          <span>01</span>
+          <h3>Design</h3>
+          <p>Ideas become 3D models so the robot fits together before it is cut.</p>
+        </li>
+        <li>
+          <span>02</span>
+          <h3>Build</h3>
+          <p>Mechanisms are built to survive a match, not just a demo on the bench.</p>
+        </li>
+        <li>
+          <span>03</span>
+          <h3>Code</h3>
+          <p>Autonomous routines and vision tell the robot what to do when no one is driving.</p>
+        </li>
+        <li>
+          <span>04</span>
+          <h3>Compete</h3>
+          <p>Match play shows what failed. The next iteration starts from that.</p>
+        </li>
+      </ol>
+      <aside class="notes">
+        <p>This is the motto in practice. Pick one real failure from this season and one change that followed it. Keep it under a minute.</p>
+      </aside>
+    </section>
+
+    <section class="slide" data-title="Outreach" aria-label="Outreach" hidden>
+      <p class="kicker">Connect</p>
+      <h2>One backyard event started another FTC team.</h2>
+      <div class="outreach">
+        <article>
+          <p>10,000+</p>
+          <h3>Jubilee Day</h3>
+          <p>A stall at a Mechanicsburg fair with Power Women, teaching what FIRST is.</p>
+        </article>
+        <article>
+          <p>125</p>
+          <h3>Backyard outreach</h3>
+          <p>After this event, Thunder Busters started their own FTC team.</p>
+        </article>
+        <article>
+          <p>8</p>
+          <h3>FLL teams mentored</h3>
+          <p>Ultra Builders, STEM Squad, Brick Benders, Robo Rookies, PA Technicians, and online classes.</p>
+        </article>
+        <article>
+          <p>Girls in STEM</p>
+          <h3>Power Women</h3>
+          <p>Robot demonstrations at an event focused on girls in STEM. Also Earth Day and a YouBiz fundraiser.</p>
+        </article>
+      </div>
+      <aside class="notes">
+        <p>Lead with Thunder Busters. Then Jubilee Day. Name two FLL teams if there is time: Ultra Builders 56703 and Brick Benders 66266.</p>
+      </aside>
+    </section>
+
+    <section class="slide" data-title="This season" aria-label="This season" hidden>
+      <p class="kicker">BIOBUZZ · 2026–2027</p>
+      <h2>Same team habit. A new game.</h2>
+      <p class="lede">BIOBUZZ, presented by RTX, is this year’s FIRST Tech Challenge game. Architechs is carrying the AEGIS build process into it: design, test, and change what the match exposes.</p>
+      <ul class="points">
+        <li>Student-owned decisions, documented as the season moves</li>
+        <li>Outreach stays on the calendar, not after awards</li>
+        <li>The goal on the field is a robot the whole team can explain</li>
+      </ul>
+      <aside class="notes">
+        <p>If judges ask for game strategy, answer from the robot in front of them. This slide only sets the season. Do not read a scoring plan that the team has not agreed on.</p>
+      </aside>
+    </section>
+
+    <section class="slide" data-title="Questions" aria-label="Questions" hidden>
+      <p class="kicker">Thank you</p>
+      <h2>Ask us how it failed.</h2>
+      <p class="lede">The useful story is the change after the failure. We are happy to walk the robot, the notebook, or the outreach.</p>
+      <p class="close-meta">Architechs · FTC 25795 · Mechanicsburg, PA<br>architechs.si</p>
+      <aside class="notes">
+        <p>Stop talking. Let the judges ask. If the room is quiet, offer the pit location and the engineering notebook.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="deck-nav">
+    <button type="button" id="prev">Previous</button>
+    <div class="dots" id="dots"></div>
+    <button type="button" id="next">Next</button>
+    <a href="/about">Team story</a>
+  </footer>
+  <script src="present.js"></script>
+</body>
 </html>
